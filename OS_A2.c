@@ -13,6 +13,8 @@
 #define ELEVATOR_MAX_CAP 20
 #define MAX_NEW_REQUESTS 30
 #define ACTUAL_MAX_CAP 5
+
+//This is the code for the second assignment in OS course for 3-1 at Bits Hyderabad
 typedef struct ElevatorPassenger{
     int requestId;
     int startFloor;
