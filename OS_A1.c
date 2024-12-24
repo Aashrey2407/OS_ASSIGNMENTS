@@ -8,6 +8,8 @@
 #include <sys/shm.h>
 #include <stdint.h>
 
+//This is the code for the first assignment of OS course in  3-1 Bits Hyderabad
+
 typedef struct TrieNode{
     struct TrieNode * child[26];
     int count;
@@ -147,3 +149,4 @@ int main(int argc,char ** argv){
     }
     return 0;
 }
+
